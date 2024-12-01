@@ -1,6 +1,6 @@
 {
     "name": "sn-utils-logger",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "index.js",
     "scripts": {
         "prettier": "prettier --check .",
