@@ -11,10 +11,7 @@
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "moduleResolution": "node",
-        "baseUrl": ".",
-        "paths": {
-            "@src/*": ["src/*"]
-        }
+        "baseUrl": "."
     },
     "include": ["src/**/*", "eslint.config.mjs"],
     "exclude": ["node_modules", "build"]
