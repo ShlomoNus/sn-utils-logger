@@ -10,5 +10,3 @@ export const defaultTransports = [
 ];
 
 export type TransportsType = typeof defaultTransports;
-
-export const transports = winston.transports;
