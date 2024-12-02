@@ -1,7 +1,18 @@
 {
     "name": "sn-utils-logger",
     "version": "1.0.7",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
     "scripts": {
         "prettier": "prettier --check .",
         "prettier-fix": "prettier --write .",
